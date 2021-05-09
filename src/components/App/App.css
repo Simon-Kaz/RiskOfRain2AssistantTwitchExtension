@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'bombardierregular';
+    src: url('./fonts/bombard.woff2') format('woff2');
+}
+
+.App {
+    font-family: 'bombardierregular';
+}
+
+.App-light{
+    color: #232127;
+}
+
+.App-dark{
+    color: #e5e3e8;
+}
+
+.itemContainer {
+    position: relative;
+}
+  
+.itemContainer img {
+    max-height: 92px;
+    max-width: 92px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 128px));
+    grid-template-rows: repeat(auto-fill, minmax(100px, 128px));
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.itemCount {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 18px;
+    color: #eee;
+    font-family: 'bombardierregular';
+}
+
+.stackInfo {
+    font-size: 90%;
+    font-style: italic;
+    color: #909090;
+    white-space: nowrap;
+}
+
+.utilityInfo {
+    color: #95CDE5;
+}
+
+.damageInfo {
+    color: #E5C962;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;			/* This removes the border around the viewport in old versions of IE */
+    width: 100%;
+    background: #000;
+    font-size: 90%;
+    font-family: 'bombardierregular';
+}
+
+.tooltip {
+    position: relative;
+    display: inline-flex;
+
+}
+
+.tooltip .tooltiptext {
+visibility: hidden;
+width: 120px;
+background-color: black;
+color: #fff;
+text-align: center;
+border-radius: 6px;
+padding: 5px 0;
+
+/* Position the tooltip */
+position: absolute;
+z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
+}
