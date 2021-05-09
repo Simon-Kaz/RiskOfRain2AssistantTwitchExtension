@@ -6,7 +6,7 @@ Allows the streamer to display their currently owned items and description in a 
 This extension requires a Risk of rain 2 mod to be installed (WIP) and streamer's Twitch account to be connected so that the inventory can be updated in real time. 
 
 ![Example 1](./Docs/example1.PNG)
-![Example 2](./Docs/example1.PNG)
+![Example 2](./Docs/example2.PNG)
 
 
 # Original React boilerplate docs below
