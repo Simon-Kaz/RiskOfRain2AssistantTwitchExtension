@@ -38,6 +38,28 @@
       "orientation": "Portrait",
       "type": "component",
       "viewerType": "Logged-In Viewer"
+    },
+    {
+      "channelId": "265737932",
+      "configurationAnchor": "panel",
+      "displayChannelName": "heyitssimon",
+      "features": {
+        "isBitsEnabled": false,
+        "isChatEnabled": false,
+        "isSubscriptionStatusAvailable": false
+      },
+      "frameSize": {
+        "width": 411,
+        "height": 731
+      },
+      "id": "2",
+      "isPopout": false,
+      "label": "",
+      "linked": false,
+      "linkedUserId": "",
+      "orientation": "Landscape",
+      "type": "mobile",
+      "viewerType": "Broadcaster"
     }
   ],
   "manifest": {
@@ -48,7 +70,7 @@
     "canInstall": true,
     "configUrl": "https://localhost:8080/config.html",
     "configurationLocation": "none",
-    "description": "",
+    "description": "Risk Of Rain 2 Assistant",
     "eulaTosUrl": "",
     "hasChatSupport": false,
     "iconUrl": "",
@@ -56,7 +78,7 @@
     "id": "4qf2ow3x8u51wro31126vhln6qx77t",
     "installationCount": -42,
     "liveConfigUrl": "",
-    "name": "anotheruselessexample",
+    "name": "Risk Of Rain 2 Assistant",
     "panelHeight": 300,
     "privacyPolicyUrl": "",
     "requestIdentityLink": false,
@@ -65,18 +87,22 @@
     "sku": "",
     "state": "Testing",
     "subscriptionsSupportLevel": "none",
-    "summary": "",
+    "summary": "Risk Of Rain 2 Assistant ",
     "supportEmail": "kazszymo@gmail.com",
     "vendorCode": "",
     "version": "0.0.1",
-    "viewerSummary": "",
+    "viewerSummary": "Risk Of Rain 2 Assistant",
     "viewerUrl": "https://localhost:8080/panel.html",
     "viewerUrls": {
+      "mobile": "https://localhost:8080/mobile.html",
       "panel": "https://localhost:8080/panel.html",
       "videoOverlay": "https://localhost:8080/video_overlay.html",
       "component": "https://localhost:8080/video_component.html"
     },
     "views": {
+      "mobile": {
+        "viewerUrl": "https://localhost:8080/mobile.html"
+      },
       "panel": {
         "viewerUrl": "https://localhost:8080/panel.html",
         "height": 300,
@@ -92,7 +118,7 @@
         "aspectHeight": 0,
         "aspectRatioX": 400,
         "aspectRatioY": 300,
-        "scalePixels": 198,
+        "scalePixels": 1024,
         "targetHeight": 6000,
         "size": 0,
         "zoom": false,
