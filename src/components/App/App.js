@@ -76,7 +76,7 @@ export default class App extends React.Component {
         if (this.state.finishedLoading && this.state.isVisible) {
             return (
                 <div class="colmask fullpage">
-                    <div class="col1 .grid-container">
+                    <div class="grid-container">
                         <div class="tooltip itemContainer">
                             <img src={require("./itemIcons/Paul's_Goat_Hoof.png")}/>
                             <div class="itemCount">5x</div>

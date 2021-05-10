@@ -9,6 +9,14 @@ This extension requires a Risk of rain 2 mod to be installed (WIP) and streamer'
 ![Example 2](./Docs/example2.PNG)
 
 
+Plans for the extension:
+- Continue developing this as a Video Component extension until satisfied with the feature set. Long term plan is to create an overlay with tooltips instead, and repurpose current video component.
+- Features that will be looked into (no promises on delivery though):
+  - character stats section
+  - character skills section
+  - item stack details (detailed stats based on the amount of items you have)
+  - character buffs/debuffs details
+
 # Original React boilerplate docs below
 - [Twitch Extension React Boilerplate](#twitch-extension-react-boilerplate)
   - [Requirements](#requirements)
